@@ -1,7 +1,64 @@
 body {
+    width: 1100px;
+    background: rgb(215, 215, 255);
+    max-width:95%;
+    margin:auto;
 	font-family: Arial, Verdana, sans-serif;
 	/*letter-spacing: 0.025em;*/
 	font-size: 80%;
 	line-height: 1.4em;
 	text-align: justify;
+}
+h1 {
+    float: left;
+    color: rgb(100, 0, 0);
+    margin: 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    background: rgb(255, 215, 215);
+    /*
+    short-hand for padding-top, -right, -bottom, -left
+    1 value = all four sides
+    2 values = first value applies to top and bottom
+               second value applies to left and right
+    */
+    padding:10px 100px;
+}
+section h2 {
+    text-align: center;
+    color: rgb(0, 100, 150);
+}
+section p {
+    color: rgb(0, 150, 150);
+}
+article {
+    background: rgb(255, 255, 255);
+    float: left;
+    width: 29.3%;
+    margin: 1%;
+    padding: 1%;
+    height: 205px;
+}
+article a img {
+    width: auto;
+}
+article h2 {
+    color: rgb(45, 45, 45);
+}
+article p {
+    color: rgb(75, 75, 75);
+}
+li {
+    color: rgb(75, 75, 75);
+}
+footer {
+    text-align: center;
+    background: rgb(175, 175, 175);
+    clear:left;
+    padding: 10px;
 }
